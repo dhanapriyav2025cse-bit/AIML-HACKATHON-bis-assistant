@@ -1,0 +1,717 @@
+:root {
+  font-size: 15px;
+}
+
+body,
+.app-shell {
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.workspace-label,
+.eyebrow {
+  font-size: 13px;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.nav-link {
+  min-height: 46px;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.brand-copy strong {
+  font-size: 18px;
+}
+
+.brand-copy small,
+.source-status small,
+.user-mini small {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.source-status strong,
+.user-mini strong {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.sidebar-help {
+  font-size: 15px;
+}
+
+.nav-count {
+  font-size: 12px;
+}
+
+.breadcrumbs {
+  font-size: 15px;
+}
+
+.demo-pill,
+.language-button {
+  font-size: 13px;
+}
+
+.welcome-row h1 {
+  font-size: 42px;
+  line-height: 1.18;
+}
+
+.welcome-copy,
+.page-subtitle {
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.page-title {
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+.section-heading h2 {
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.search-label strong {
+  font-size: 16px;
+}
+
+.search-label small {
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.home-search {
+  min-height: 50px;
+}
+
+.home-search input,
+.catalog-search input,
+.chat-composer textarea {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.button-primary,
+.button-secondary,
+.button-quiet,
+.text-link,
+.search-chips button,
+.task-card,
+.suggestion-list button,
+.aside-prompt,
+.tool-button,
+.document-questions button,
+.catalog-card-actions button,
+.message-actions button {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.button-primary,
+.button-secondary {
+  min-height: 42px;
+  padding-inline: 15px;
+}
+
+.home-search .button-primary {
+  min-height: 42px;
+}
+
+.button-quiet {
+  min-height: 40px;
+  padding: 7px 12px;
+}
+
+.search-chips button,
+.suggestion-list button,
+.aside-prompt,
+.document-questions button {
+  min-height: 40px;
+  padding: 8px 11px;
+}
+
+.task-card {
+  min-height: 142px;
+  gap: 8px;
+}
+
+.task-card > strong {
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+.task-detail {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.trust-note,
+.catalog-disclaimer,
+.privacy-note,
+.inline-notice,
+.inline-error {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.page-footer {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.page-title-row {
+  align-items: flex-start;
+}
+
+.chat-empty h2 {
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.chat-empty p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.chat-transcript {
+  min-height: 410px;
+}
+
+.message-text {
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.message-label {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.mode-tag {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.citation-card {
+  min-height: 58px;
+  padding: 10px;
+}
+
+.citation-copy strong {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.citation-copy small {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.citation-card > a {
+  display: grid;
+  flex: 0 0 32px;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+}
+
+.message-actions {
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.message-actions button {
+  min-height: 34px;
+}
+
+.composer-footnote {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.language-hint {
+  font-size: 14px;
+}
+
+.tool-button {
+  min-height: 36px;
+}
+
+.aside-card-title strong {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.source-card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.source-card a {
+  min-height: 36px;
+  font-size: 14px;
+}
+
+.sample-label,
+.result-count {
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.catalog-search {
+  min-height: 46px;
+}
+
+.catalog-search > button {
+  min-width: 36px;
+  min-height: 36px;
+}
+
+.catalog-card {
+  padding: 17px;
+}
+
+.catalog-card h2 {
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.catalog-card p {
+  min-height: 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.category-tag,
+.standard-number {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.tag-list span {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.catalog-card-bottom > span {
+  font-size: 12px;
+}
+
+.catalog-card-actions {
+  gap: 12px;
+}
+
+.catalog-card-actions button {
+  min-height: 36px;
+}
+
+.upload-panel h2 {
+  font-size: 19px;
+  line-height: 1.4;
+}
+
+.upload-panel p,
+.uploaded-file-info small {
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.uploaded-file-info strong {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.ready-pill,
+.overview-state {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.document-questions button {
+  min-height: 38px;
+}
+
+.metric-label {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.metric-card > strong {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.overview-panel h2 {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.overview-row strong {
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.overview-row p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.detail-modal h2 {
+  font-size: 23px;
+  line-height: 1.35;
+}
+
+.modal-summary,
+.detail-field strong,
+.detail-field span {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.modal-number {
+  font-size: 13px;
+}
+
+.sidebar-clickable,
+.sidebar-help,
+.user-mini {
+  width: 100%;
+  border-inline: 0;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sidebar-clickable:hover,
+.sidebar-help:hover,
+.user-mini:hover {
+  background: #e8efe6;
+}
+
+.assistant-session-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.conversation-picker {
+  min-width: 180px;
+  max-width: min(280px, 100%);
+  border: 1px solid #dfe6dd;
+  border-radius: 4px;
+  padding: 8px;
+  background: white;
+  color: #536458;
+  font: inherit;
+}
+
+.knowledge-category-list,
+.knowledge-ingest-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.knowledge-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px;
+  border: 1px solid #e4eae2;
+  border-radius: 4px;
+  color: #405547;
+}
+
+.knowledge-category-list .knowledge-category strong {
+  font-size: 15px;
+}
+
+.knowledge-category small,
+.knowledge-category a {
+  display: block;
+  margin-top: 3px;
+  color: #748078;
+}
+
+.knowledge-source-list {
+  display: grid;
+  gap: 7px;
+  padding-left: 20px;
+  overflow-wrap: anywhere;
+}
+
+.knowledge-ingest-form label,
+.admin-key-field {
+  display: grid;
+  gap: 5px;
+  color: #536458;
+  font-size: 14px;
+}
+
+.knowledge-ingest-form input,
+.knowledge-ingest-form select,
+.knowledge-ingest-form textarea,
+.admin-key-field input,
+.catalog-toolbar select {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #dfe6dd;
+  border-radius: 4px;
+  padding: 9px;
+  background: white;
+  color: #34483b;
+  font: inherit;
+}
+
+.knowledge-ingest-form .ingest-wide {
+  grid-column: 1 / -1;
+}
+
+.knowledge-admin > button {
+  margin: 10px 0;
+}
+
+.home-information {
+  margin-top: 20px;
+}
+
+.home-information-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.help-content > p {
+  max-width: 82ch;
+  margin: 5px 0 20px;
+  color: #66746a;
+}
+
+.help-content h2:not(:first-child) {
+  margin-top: 24px;
+}
+
+.document-questions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 720px) {
+  .knowledge-category-list,
+  .knowledge-ingest-form,
+  .home-information-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .knowledge-ingest-form .ingest-wide {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 960px) {
+  .welcome-row h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 720px) {
+  .topbar {
+    height: auto;
+    min-height: 58px;
+    padding-block: 8px;
+  }
+
+  .breadcrumbs {
+    gap: 7px;
+    font-size: 14px;
+  }
+
+  .content-area {
+    padding-top: 26px;
+  }
+
+  .welcome-row h1 {
+    font-size: 38px;
+  }
+
+  .page-title {
+    font-size: 38px;
+  }
+
+  .page-title-row {
+    gap: 12px;
+  }
+
+  .button-quiet {
+    flex: 0 0 auto;
+    font-size: 14px;
+  }
+
+  .task-card {
+    min-height: 100px;
+  }
+
+  .task-icon {
+    top: 34px;
+  }
+
+  .task-arrow {
+    top: 41px;
+  }
+
+  .chat-transcript {
+    min-height: 350px;
+    max-height: 52vh;
+    padding: 17px 14px;
+  }
+
+  .chat-empty {
+    min-height: 320px;
+    padding: 14px 4px;
+  }
+
+  .chat-empty h2 {
+    font-size: 20px;
+  }
+
+  .chat-aside {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-toolbar {
+    flex-wrap: wrap;
+  }
+
+  .catalog-search {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .result-count {
+    flex-basis: 100%;
+    text-align: right;
+  }
+
+  .catalog-card p {
+    min-height: 0;
+  }
+
+  .catalog-card-bottom {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .trust-note a {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .topbar-actions {
+    gap: 6px;
+  }
+
+  .demo-pill {
+    padding: 5px 6px;
+    font-size: 11px;
+  }
+
+  .language-button {
+    padding: 5px 2px;
+  }
+
+  .welcome-row h1 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+
+  .welcome-copy,
+  .page-subtitle {
+    font-size: 15px;
+  }
+
+  .home-search {
+    flex-wrap: wrap;
+    padding: 8px 10px;
+  }
+
+  .home-search input {
+    flex-basis: calc(100% - 36px);
+  }
+
+  .home-search .button-primary {
+    width: 100%;
+  }
+
+  .search-chips button {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .trust-note {
+    align-items: flex-start;
+  }
+
+  .page-title-row {
+    flex-wrap: wrap;
+  }
+
+  .page-title {
+    font-size: 38px;
+  }
+
+  .uploaded-document {
+    grid-template-columns: 36px minmax(0, 1fr) 32px;
+  }
+
+  .ready-pill {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .delete-document {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .document-questions {
+    grid-column: 1 / -1;
+  }
+
+  .overview-row {
+    grid-template-columns: 27px minmax(0, 1fr);
+  }
+
+  .overview-state {
+    grid-column: 2;
+  }
+
+  .page-footer {
+    gap: 7px;
+  }
+}
+
+.sidebar {
+  height: 100vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}

@@ -1,0 +1,293 @@
+:root {
+  --bis-navy: #17334f;
+  --bis-blue: #245b88;
+  --bis-blue-soft: #e9f0f6;
+  --bis-saffron: #bd771d;
+  --bis-saffron-soft: #f8f1e6;
+  --bis-ink: #263b50;
+  --bis-muted: #718092;
+  --bis-line: #dfe6ec;
+  --bis-paper: #ffffff;
+  --bis-canvas: #f5f7f9;
+  color-scheme: light;
+  color: var(--bis-ink);
+  background: var(--bis-canvas);
+}
+
+body,
+.app-shell {
+  color: var(--bis-ink);
+  background: var(--bis-canvas);
+}
+
+.sidebar {
+  background: #f0f3f6;
+  border-color: #dce3e9;
+}
+
+.brand-mark {
+  background: var(--bis-navy);
+}
+
+.brand-copy strong,
+.welcome-row h1,
+.page-title,
+.section-heading h2,
+.chat-empty h2,
+.detail-modal h2 {
+  color: var(--bis-navy);
+}
+
+.brand-copy small,
+.workspace-label,
+.eyebrow {
+  color: #718195;
+}
+
+.nav-link {
+  color: #53677c;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--bis-navy);
+  background: #e2ebf3;
+}
+
+.nav-count {
+  color: #244f75;
+  background: #d6e3ee;
+}
+
+.topbar {
+  background: #ffffffed;
+  border-color: var(--bis-line);
+}
+
+.breadcrumbs strong,
+.search-label strong,
+.task-card > strong {
+  color: var(--bis-navy);
+}
+
+.demo-pill,
+.trust-note,
+.privacy-note {
+  color: #795921;
+  background: var(--bis-saffron-soft);
+  border-color: #ead9bb;
+}
+
+.demo-pill .status-dot,
+.status-dot {
+  background: var(--bis-saffron);
+}
+
+.welcome-row h1,
+.page-title {
+  text-wrap: balance;
+}
+
+.eyebrow-line {
+  background: var(--bis-saffron);
+}
+
+.art-sun {
+  background: #edf1f4;
+}
+
+.art-page span {
+  background: #dce5ec;
+}
+
+.art-page b {
+  color: var(--bis-blue);
+  border-color: #cbd9e4;
+}
+
+.art-leaf-one {
+  background: #d9e5ed;
+  border-color: #b9cbd9;
+}
+
+.art-leaf-two {
+  background: #f4e8d4;
+  border-color: #e7d0aa;
+}
+
+.art-stamp,
+.search-panel,
+.task-card,
+.chat-main,
+.aside-card,
+.catalog-card,
+.upload-panel,
+.uploaded-document,
+.overview-panel,
+.metric-card {
+  background: var(--bis-paper);
+  border-color: var(--bis-line);
+}
+
+.search-icon-wrap,
+.task-icon,
+.assistant-orb,
+.assistant-avatar,
+.metric-icon,
+.overview-check {
+  color: var(--bis-blue);
+  background: var(--bis-blue-soft);
+}
+
+.task-card:nth-child(2) .task-icon,
+.trust-icon {
+  color: var(--bis-saffron);
+  background: var(--bis-saffron-soft);
+}
+
+.task-card:nth-child(3) .task-icon {
+  color: #4d6d86;
+  background: #edf2f6;
+}
+
+.home-search,
+.catalog-search,
+.chat-composer {
+  border-color: #d6e0e8;
+  background: #fff;
+}
+
+.home-search:focus-within,
+.catalog-search:focus-within,
+.chat-composer:focus-within {
+  border-color: #799ab8;
+  box-shadow: 0 0 0 3px #eaf1f7;
+}
+
+.button-primary,
+.send-button {
+  background: var(--bis-navy);
+}
+
+.button-primary:hover:not(:disabled),
+.send-button:hover:not(:disabled) {
+  background: #214e76;
+}
+
+.button-secondary,
+.button-quiet,
+.search-chips button,
+.suggestion-list button,
+.aside-prompt,
+.document-questions button {
+  color: var(--bis-blue);
+  border-color: #dce5ec;
+  background: #fff;
+}
+
+.button-secondary:hover,
+.search-chips button:hover,
+.suggestion-list button:hover,
+.aside-prompt:hover,
+.document-questions button:hover {
+  color: var(--bis-navy);
+  border-color: #a9bfd1;
+  background: #f5f8fb;
+}
+
+.text-link,
+.source-card a,
+.catalog-card-bottom button,
+.catalog-disclaimer a,
+.trust-note a {
+  color: var(--bis-blue);
+}
+
+.trust-note strong {
+  color: #76571f;
+}
+
+.citation-card {
+  background: #f4f7fa;
+  border-color: #dce5ec;
+}
+
+.citation-icon,
+.citation-card > a {
+  color: var(--bis-blue);
+}
+
+.citation-copy strong,
+.message-text,
+.catalog-card h2,
+.overview-panel h2 {
+  color: #30465c;
+}
+
+.category-tag {
+  color: #28577e;
+  background: #eaf1f7;
+}
+
+.standard-number,
+.tag-list span {
+  background: #f1f4f6;
+}
+
+.sample-label,
+.modal-number {
+  color: #8a672b;
+}
+
+.uploaded-file-icon {
+  color: var(--bis-blue);
+  background: #edf2f6;
+}
+
+.ready-pill {
+  color: #315f7f;
+}
+
+.privacy-note {
+  color: #725727;
+}
+
+.detail-modal {
+  background: #fff;
+  border-color: var(--bis-line);
+}
+
+.detail-field strong {
+  color: var(--bis-navy);
+}
+
+.modal-source {
+  color: #fff;
+}
+
+.icon-button,
+.language-button,
+.tool-button {
+  color: #526b82;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline-color: #315f84;
+}
+
+::selection {
+  color: #17334f;
+  background: #d9e6f0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}
